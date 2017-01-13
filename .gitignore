@@ -1,0 +1,6 @@
+.idea
+vendor
+wordpress
+composer.lock
+.sass-cache
+style.css

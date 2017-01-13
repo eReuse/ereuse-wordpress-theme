@@ -1,0 +1,15 @@
+{
+  "name": "ereuse/ereuse-wordpress-theme",
+  "description": "eReuse Theme",
+  "minimum-stability": "dev",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "eReuse team",
+      "email": "x.bustamante@ereuse.org"
+    }
+  ],
+  "require": {
+    "johnpbloch/wordpress": "4.7.1"
+  }
+}
