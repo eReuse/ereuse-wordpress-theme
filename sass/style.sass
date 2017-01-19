@@ -80,12 +80,25 @@ article:not(.well)
   max-width: 100%
   text-align: center
 
+.picture-sm
+  height: 4em
+  max-width: 100%
+  text-align: center
 
 .margin-v-b-0
   margin-bottom: 0 !important
 
 .margin-v-t-0
   margin-top: 0 !important
+
+main
+  .jumbotron
+    padding-bottom: 0
+    padding-top: 14em
+    background-size: cover
+    @media screen and (max-width: $screen-sm-max)
+      padding-top: 10em
+
 
 @import header
 @import index

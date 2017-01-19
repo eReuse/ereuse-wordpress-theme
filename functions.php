@@ -18,3 +18,7 @@ function ereuse_theme_enqueue_styles() {
 }
 
 add_action( 'wp_enqueue_scripts', 'ereuse_theme_enqueue_styles' );
+
+register_nav_menus( array(
+	'footer-menu' => __( 'Footer Menu', 'ereuse-wordpress-theme' ),
+) );

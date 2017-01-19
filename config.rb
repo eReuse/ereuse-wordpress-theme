@@ -10,3 +10,6 @@ javascripts_dir = "js" #targets our JavaScript directory
 # To enable relative paths to assets via compass helper functions.
 # note: this is important in wordpress themes for sprites
 relative_assets = true
+
+# Use ":development" for nice formatting of ":production" to compress
+environment = :development

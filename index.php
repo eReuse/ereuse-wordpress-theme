@@ -28,16 +28,15 @@ get_header();
       <div class="col-sm-6 col-md-4 col-md-offset-2 col-lg-offset-0 col-lg-3 margin-v-sm">
         <img src="<?php print get_stylesheet_directory_uri() . '/images/software.png' ?>" class="img-responsive">
         <a href="software" class="showcase"><h4><i class="fa fa-code"></i>&nbsp;Open-Source software</h4></a>
-        <p>Device Management System for reusing and refurbishing, erasing hard-drives, and tracking at component
-           level.</p>
+        <p>Device Management System for reusing and refurbishing, erasing hard-drives and diagnosing components.</p>
         <p><a href="software">Know more</a></p>
       </div>
       <div class="col-sm-6 col-md-4 col-lg-3 margin-v-sm">
         <img src="<?php print get_stylesheet_directory_uri() . '/images/global-traceability.png' ?>"
              class="img-responsive">
-        <h4><i class="fa fa-map-marker"></i>&nbsp;Global traceability</h4>
-        <p>Tracking systems at component level that can send information to trusted, global databases, ensuring truly
-           global traceability.</p>
+        <h4><i class="fa fa-globe"></i>&nbsp;Global traceability</h4>
+        <p>Tracking systems at component level that can provide global coverage by connecting with
+           eReuse.org servers.</p>
         <p><a href="software">Know more</a></p>
       </div>
       <div class="col-sm-6 col-md-4 col-md-offset-2 col-lg-offset-0 col-lg-3 margin-v-sm">
@@ -50,7 +49,7 @@ get_header();
       <div class="col-sm-6 col-md-4 col-lg-3 margin-v-sm">
         <img src="<?php print get_stylesheet_directory_uri() . '/images/licenses.png' ?>" class="img-responsive">
         <h4><i class="fa fa-file-text-o"></i>&nbsp;Base licenses for the commons</h4>
-        <p>Base licenses and deed of assignment templates for transferring devices ensuring the circular values of
+        <p>Base licenses and deed of assignment templates for transferring devices with the circular values of
            eReuse.org.</p>
         <p><a href="software">Know more</a></p>
       </div>
@@ -62,6 +61,21 @@ get_header();
       </div>-->
 
     </div>
+  </article>
+  <article class="container text-center">
+    <h2 class="text-center">
+      Reuse empowers circular economy, boosts digital inclusion and reduces e-waste
+    </h2>
+    <p>
+      See how our open-software and traceability achieves it
+    </p>
+    <iframe src="https://player.vimeo.com/video/145730246"
+            width="640"
+            height="360"
+            frameborder="0"
+            webkitallowfullscreen
+            mozallowfullscreen
+            allowfullscreen></iframe>
   </article>
           <!--<div class="container panel panel-default">
 			<div class="panel-heading">
@@ -85,23 +99,25 @@ get_header();
         <figure class="col-sm-6 col-md-4 margin-v-sm">
           <a href="https://"><img class="picture-md"
                                   src="<?php print get_stylesheet_directory_uri() . '/images/solidanca-logo.svg' ?>"></a>
-          <figcaption>Refurbishers like Solidança use the software to prepare and manage devices to be sold or donated,
-                      and they
-                      contribute by providing feedback and adding new functionality.
-          </figcaption>
-        </figure>
-        <figure class="col-sm-6 col-md-4 margin-v-sm">
-          <a href=""><img src="<?php print get_stylesheet_directory_uri() . '/images/upc-logo.svg' ?>" class="picture-md"></a>
-          <figcaption>The Catalan Politecnic University is able to reuse computers only using Open-Source, and involves
-                      more
-                      than 1000 students with it. Read their winning paper.
-          </figcaption>
-        </figure>
-        <figure class="col-sm-6 col-md-4 margin-v-sm">
-          <a href=""><img src="<?php print get_stylesheet_directory_uri() . '/images/barcelona-activa-logo.png' ?>" class="picture-md"></a>
           <figcaption>
-            The Barcelona mayor by donating PC they dispose to schools and NGO. The eReuse.org base licenses facilitates
-            the inclusion of new actors in the donation process, like receivers or refurbishers.
+            Refurbishers like Solidança use the software to prepare and manage devices to be traded or donated, ensuring
+            giver's donation policy and final disposal.
+          </figcaption>
+        </figure>
+        <figure class="col-sm-6 col-md-4 margin-v-sm">
+          <a href=""><img src="<?php print get_stylesheet_directory_uri() . '/images/upc-logo.svg' ?>"
+                          class="picture-md"></a>
+          <figcaption>
+            Each year 500 students from the Catalan Polytechnic University cooperate in repairing and installing
+            free software to computers that are donated to NGO.
+          </figcaption>
+        </figure>
+        <figure class="col-sm-6 col-md-4 margin-v-sm col-sm-offset-3 col-md-offset-0">
+          <a href=""><img src="<?php print get_stylesheet_directory_uri() . '/images/barcelona-activa-logo.png' ?>"
+                          class="picture-md"></a>
+          <figcaption>
+            The Barcelona mayor donates PC to schools and NGO. The eReuse.org base licenses
+            ensures their correct treatment and facilitates the NGO and refurbishers to work with the government.
           </figcaption>
         </figure>
       </div>
@@ -122,21 +138,6 @@ get_header();
       </div>
     </div>
   </article>
-  <article class="container text-center">
-    <h2 class="text-center">
-      Reuse empowers circular economy, boosts digital inclusion and reduces e-waste
-    </h2>
-    <p>
-      See how our open-software and traceability achieves it
-    </p>
-    <iframe src="https://player.vimeo.com/video/145730246"
-            width="640"
-            height="360"
-            frameborder="0"
-            webkitallowfullscreen
-            mozallowfullscreen
-            allowfullscreen></iframe>
-  </article>
   <article class="container">
     <h2 class="text-center">Our main objectives</h2>
     <div class="row text-center">
@@ -151,8 +152,8 @@ get_header();
       </div>
       <div class="col-sm-6 col-md-4">
         <i class="fa fa-3x fa-pie-chart"></i>
-        <p>Develop open data of electronic components to compute the estimated extended product
-           and component durability.
+        <p>Develop open data of electronic components to compute circularity metrics, like the
+           extended durability of devices.
         </p>
       </div>
       <div class="col-sm-6 col-md-4">
@@ -175,15 +176,11 @@ get_header();
         <p>Ensure reusing and recycling by performing traceability at component level.</p>
       </div>
     </div>
-
-    <div id="intro-video">
-
-    </div>
     <h3>Do you want to know more?</h3>
     <p>
-       We recommend you reading our <a href="http://goo.gl/MGld0u">awarded</a> paper
+      We recommend you reading our <a href="http://goo.gl/MGld0u">awarded</a> paper
       <a href="http://goo.gl/LCibE8"><em>Breaking Barriers on Reuse of Digital Devices Ensuring Final Recycling</em></a>
-      and <a href="http://limits2016.org/papers/a3-franquesa.pdf">A Circular Commons for Digital Devices</a>.
+      and <a href="http://limits2016.org/papers/a3-franquesa.pdf"><em>A Circular Commons for Digital Devices</em></a>.
     </p>
   </article>
   <article class="panel panel-default margin-v-b-0">
@@ -192,16 +189,16 @@ get_header();
     </div>
     <div class="panel-body">
       <div class="row">
-        <form action="//ereuse.us12.list-manage.com/subscribe/post?u=64100fd47e04e01275e6fbd9b&amp;id=54ec0ba86b"
+        <form action="//ereuse.us12.list-manage.com/subscribe/post?u=64100fd47e04e01275e6fbd9b&amp;id=227e773863"
               method="post"
               id="mc-embedded-subscribe-form"
               name="mc-embedded-subscribe-form"
-              class="validate subscribe-form col-md-6 col-md-offset-1"
+              class="validate subscribe-form col-md-4 col-md-offset-1"
               target="_blank"
               novalidate>
           <div class="input-group">
             <span class="mc-field-group">
-              <input type="email" value="" name="EMAIL" class="required email form-control" id="mce-EMAIL"
+              <input type="email" value="" name="EMAIL" class="email form-control" id="mce-EMAIL"
                      placeholder="Write an e-mail">
             </span>
             <span class="input-group-btn">
@@ -218,26 +215,27 @@ get_header();
             <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
             <span style="position: absolute; left: -5000px;" aria-hidden="true">
               <input type="text"
-                     name="b_64100fd47e04e01275e6fbd9b_54ec0ba86b"
+                     name="b_64100fd47e04e01275e6fbd9b_227e773863"
                      tabindex="-1"
                      value="">
             </span>
           </div>
         </form>
-        <div class="text-center col-md-4">
+        <div class="text-center col-md-6">
           <ul class="list-inline">
-            <li><a href="#"><i class="fa fa-twitter-square fa-3x"></i></a></li>
-            <li><a href="#"><i class="fa fa-facebook-square fa-3x"></i></a></li>
-            <li><a href="#"><i class="fa fa-vimeo-square fa-3x"></i></a></li>
+            <li>
+              <a class="twitter-follow-button"
+                 href="https://twitter.com/eReuseOrg"
+                 data-size="large"></a>
+            </li>
+            <li><a href="https://vimeo.com/ereuseorg" target="_blank"><i class="fa fa-vimeo-square fa-3x"></i></a></li>
           </ul>
         </div>
       </div>
     </div>
   </article>
-  <img id="community-img" class="img-responsive" src="<?php print get_stylesheet_directory_uri() . '/images/community.jpg' ?>">
   <article class="container margin-v-t-0 text-center">
-
-    <h2>Collaborate and join &nbsp;<i class="fa fa-handshake-o"></i> </h2>
+    <h2>Collaborate and join &nbsp;<i class="fa fa-handshake-o"></i></h2>
     <p>
       Any initiative focused on refurbishing, reusing and in general promoting Zero Waste on electronic equipment is
       welcomed.
@@ -252,12 +250,14 @@ get_header();
         <h4>Enhance the resources</h4>
         <p>
           Share your skills and pick up a few new ones along the way –writing open-source code, testing, support,
-          localization and more.
+          translating and more.
         </p>
       </div>
       <div class="col-md-4">
         <h4>Promote a local circuit</h4>
-        <p>Are you a Digital inclusion or Zero waste activists, then help to bootstrap a local circuit.</p>
+        <p>
+          Circuits are communities that exchange devices, empower them or create new ones using our know-how and tools.
+        </p>
       </div>
     </div>
     <div class="text-center margin-v-sm">
