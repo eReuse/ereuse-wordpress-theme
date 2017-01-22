@@ -39,7 +39,7 @@ get_header();
                 <h4><i class="fa fa-globe"></i>&nbsp;Global traceability</h4>
                 <p>Tracking systems at component level that can provide global coverage by connecting with
                     eReuse.org servers.</p>
-                <p><a href="software">Know more</a></p>
+                <p><a href="traceability">Know more</a></p>
             </div>
             <div class="col-sm-6 col-md-4 col-md-offset-2 col-lg-offset-0 col-lg-3 margin-v-sm">
                 <img src="<?php print get_stylesheet_directory_uri() . '/images/open-data.svg' ?>"
@@ -47,7 +47,7 @@ get_header();
                 <h4><i class="fa fa-bar-chart"></i>&nbsp;Research & analytics</h4>
                 <p>Global Open-Data Store with metrics e.g. the social impact of reusing, durability of components,
                     and tracking.</p>
-                <p><a href="software">Know more</a></p>
+                <!--<p><a href="#">Working...</a></p>-->
             </div>
             <div class="col-sm-6 col-md-4 col-lg-3 margin-v-sm">
                 <img src="<?php print get_stylesheet_directory_uri() . '/images/licenses.png' ?>"
@@ -55,7 +55,7 @@ get_header();
                 <h4><i class="fa fa-file-text-o"></i>&nbsp;Base licenses for the commons</h4>
                 <p>Base licenses and deed of assignment templates for transferring devices with the circular values of
                     eReuse.org.</p>
-                <p><a href="software">Know more</a></p>
+                <!--<p><a href="software">Know more</a></p>-->
             </div>
             <!--<div class="col-sm-6 col-md-4 card padding-0 col-sm-offset-3 col-md-offset-0">
         <img src="<?php /*print get_stylesheet_directory_uri() . '/images/licenses.png' */ ?>">
@@ -108,34 +108,34 @@ get_header();
             </p>
             <div class="row text-center">
                 <figure class="col-sm-6 col-md-4 margin-v-sm">
-                    <a href="https://"><img class="picture-md"
+                    <a><img class="picture-md"
                                             src="<?php print get_stylesheet_directory_uri() . '/images/solidanca-logo.svg' ?>"></a>
                     <figcaption>
-                        Refurbishers, like Solidança, use the software to prepare and manage devices to be traded or
+                        Refurbishers, like <a href="http://www.solidanca.cat" target="_blank">Solidança</a>, use the software to prepare and manage devices to be traded or
                         donated, ensuring
                         giver's donation policy, and final disposal.
                     </figcaption>
                 </figure>
                 <figure class="col-sm-6 col-md-4 margin-v-sm">
-                    <a href=""><img src="<?php print get_stylesheet_directory_uri() . '/images/upc-logo.svg' ?>"
+                    <a ><img src="<?php print get_stylesheet_directory_uri() . '/images/upc-logo.svg' ?>"
                                     class="picture-md"></a>
                     <figcaption>
-                        Each year 500 students from the Catalan Polytechnic University cooperate in repairing and
+                        Each year 500 students from the <a href="https://www.upc.edu" target="_blank">Catalan Polytechnic University</a> cooperate in repairing and
                         installing
                         free software to computers that are donated to NGOs.
                     </figcaption>
                 </figure>
                 <figure class="col-sm-6 col-md-4 margin-v-sm col-sm-offset-3 col-md-offset-0">
-                    <a href=""><img
+                    <a><img
                                 src="<?php print get_stylesheet_directory_uri() . '/images/barcelona-activa-logo.png' ?>"
                                 class="picture-md"></a>
                     <figcaption>
-                        The Barcelona government donates PC to schools and NGOs. The eReuse.org base licenses
+                        The <a href="http://ajuntament.barcelona.cat/en/" target="_blank">Barcelona government</a> donates PC to schools and NGOs. The eReuse.org base licenses
                         ensure their correct treatment and facilitate the NGOs and refurbishers to work with them.
                     </figcaption>
                 </figure>
             </div>
-            <p class="text-right"><em><a href="#">View more community members</a></em></p>
+            <p class="text-right"><em><a href="community">View more community members</a></em></p>
         </div>
     </article>
     <article class="well">
