@@ -298,7 +298,7 @@ get_header();
                             <?php if (have_posts()) { ?>
                                 <?php
                                 // start the loop
-                                while (have_posts()) {
+                                if(have_posts()) {
                                     the_post();
 
                                     /* Include the Post-Format-specific template for the content.
@@ -307,9 +307,10 @@ get_header();
                                     */
                                     get_template_part('content', get_post_format());
                                 }// end while
-
-                                bootstrapBasicPagination();
                                 ?>
+                                <div class="text-center">
+                                    <a href="/category/news/">See more news</a>
+                                </div>
                             <?php } else { ?>
                                 <?php get_template_part('no-results', 'index'); ?>
                             <?php } // endif; ?>

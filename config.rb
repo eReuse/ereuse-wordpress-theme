@@ -12,4 +12,6 @@ javascripts_dir = "js" #targets our JavaScript directory
 relative_assets = true
 
 # Use ":development" for nice formatting of ":production" to compress
+# If you use production, it will remove the comments, and Wordpress needs to have the comment
+# of the beginning of the sass/style.sass, just copy and paste it to the resulting style.css
 environment = :development
