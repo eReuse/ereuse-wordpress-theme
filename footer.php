@@ -26,7 +26,6 @@
         <div class="text-center">
             <p class="text-center">
                 eReuse.org is a community and project under <a href="https://www.pangea.org">Pangea</a>. <a href="https://pangea.org/aviso/">Legal</a>.<br>
-                The head picture of the site is from <a href="http://www.solidanca.cat">Solidança</a> –we are thankful for letting us use it.
             </p>
         </div>
         <div id="footer-row" class="row site-footer ">

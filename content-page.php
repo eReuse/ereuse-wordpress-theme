@@ -1,11 +1,5 @@
 <article id="post-<?php the_ID(); ?>" class="margin-v-t-0">
-  <header class="jumbotron" style="background-image:
-    url('<?php
-  $thumb_id  = get_post_thumbnail_id();
-  $thumb_url = wp_get_attachment_image_src( $thumb_id, 'thumbnail-size', true );
-  echo $thumb_url[0];
-  ?>')">
-
+  <header>
     <h1 class="container"><?php the_title(); ?></h1>
   </header><!-- .entry-header -->
 
