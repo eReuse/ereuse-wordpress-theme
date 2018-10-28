@@ -62,8 +62,10 @@ get_header();
         <p>Device Management System for reusing, erasing hard-drives, and tracking at component level.</p>
         <p><a href="software">Know more</a></p>
       </div>-->
-
         </div>
+		<div class="row text-center">
+			<a class="btn btn-primary btn-large" href="demo">Try our demo</a>
+		</div>
     </article>
     <article class="container text-center">
         <h2 class="text-center">
