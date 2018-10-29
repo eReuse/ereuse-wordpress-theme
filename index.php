@@ -36,8 +36,8 @@ get_header();
                 <p>Device Management System for reusing and refurbishing, erasing hard-drives, and diagnosing
                     components.</p>
                 <p>
-                    <a class="btn btn-primary btn-small" href="software">
-                        Know more and try the software
+                    <a href="software">
+                        Know more
                     </a>
                 </p>
             </div>
@@ -71,9 +71,9 @@ get_header();
         <p><a href="software">Know more</a></p>
       </div>-->
         </div>
-		<!--<div class="row text-center">
-			<a class="btn btn-primary btn-large" href="demo">Try our demo</a>
-		</div>-->
+		<div class="row text-center">
+			<a class="btn btn-primary" href="demo">Try the software</a>
+		</div>
     </article>
     <article class="container text-center">
         <h2 class="text-center">
