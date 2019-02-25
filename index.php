@@ -11,21 +11,19 @@ get_header();
 <section> <!-- presentation web -->
     <article class="jumbotron" id="banner-intro">
         <div class="container text-center">
-            <h1>Maximize reuse while ensuring final recycling</h1>
+            <h1>Reuse electronics ensuring final recycling</h1>
 			<a class="btn btn-primary" target="_blank" href="files/2018/10/eReuse-org-Brochure.pdf">Download brochure</a
         </div>
     </article>
     <article class="well">
         <h2 id="second-slogan" class="container text-center">
-            Our mission is to empower and engage people around the world to maximize reuse while ensuring final recycling
+            Our mission is the transition to a collaborative and circular consumption of electronics
         </h2>
     </article>
     <article class="container" id="what-we-do">
         <header class="text-center">
             <h2>
-                We collectively develop <em>open resources</em> to optimize refurbishment,
-                trace the chain of custody of devices, ensure final recycling,
-                and measure social impact
+                We bootstrap local and autonomous platforms for reusing electronics
             </h2>
         </header>
         <div class="row text-center">
